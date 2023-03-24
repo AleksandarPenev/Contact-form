@@ -19,7 +19,7 @@ Back-end: `NodeJS` and imported `Express`, `CORS` and `Nodemon`
 ## Setup
 - download or clone the repository
 - run `npm install`
-- ...
+
 
 ## Status
 "Contact form - JavaScript task" is completed.
