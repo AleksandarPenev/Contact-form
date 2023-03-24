@@ -1,0 +1,107 @@
+body {
+    padding-bottom: 20px;
+    background: url('../pattern_1_3_3840px_w.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+}
+
+span {
+    color: #ff0000;
+    margin-left: 20px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 5px;
+    color: #0D1B30;
+    min-height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 14px;
+    resize: none;
+    box-sizing:border-box;
+    border: 2px solid grey;
+}
+
+textarea {
+    height: 100px;
+}
+
+.section__form {
+    width: 100%;
+}
+
+.section__content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+	.section__content{
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+	.section__content{
+        width: 90%;
+    }
+}
+
+.section__content .form__row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__content .form__row .form__col {
+    position: relative;
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 5px;
+}
+
+.section__content .form__action button {
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 150px;
+    min-height: 40px;
+    height: 40px;
+    background-color: #0D1B30;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color .4s, color .4s;
+    border-color: #9bde43;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section__content .form__action {
+    margin-top: 20px;
+}
+
+.section__content .form__action button:hover {
+    color: #0D1B30;
+    background-color: #9bde43;
+}
