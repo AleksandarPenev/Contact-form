@@ -19,7 +19,9 @@ export const Form = () => {
     const formData = {name, surname, age, email, phone, subject, message}
 
     {/* Handle the form submission.
-        e = triggered submit event 
+
+        @param e = triggered submit event 
+        
         First: we prevent the default behavior so the page does not refresh.
         Second: we set 'isSubmited' to 'true' so we know that the submit event has been triggered and then we check (in JSX) if the input field is filled.
         Otherwise the error message will be displayed on the initial render.
