@@ -20,6 +20,16 @@ Back-end: `NodeJS` and imported `Express`, `CORS` and `Nodemon`
 - download or clone the repository
 - run `npm install`
 
+    # Run Front-end 
+    - navigate to `./form`
+    - run `npm start` - to start ReactJS app
+    - run `npm run test` - for unit tests
+
+    # Run Back-end
+    - navigate to `./server`
+    - run `npm run dev` - to start web server
+
+- Form is ready to receive data, send it to the server and log it in the terminal.
 
 ## Status
 "Contact form - JavaScript task" is completed.
